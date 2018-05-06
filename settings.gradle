@@ -1,0 +1,1 @@
+include ':TestPlugin', ':Test:ApiTest', ':Libraries:DroidPlugin'

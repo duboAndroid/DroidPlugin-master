@@ -1,0 +1,312 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:2:1-158:12
+	package
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:3:5-34
+	android:versionName
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml
+		INJECTED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml
+		INJECTED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:23.1.1] C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\bin\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\bin\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\bin\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.1] C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\bin\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:9:9-38
+	android:minSdkVersion
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:8:9-34
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:11:5-13:38
+	android:maxSdkVersion
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:13:9-35
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:12:9-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:15:5-17:38
+	android:maxSdkVersion
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:17:9-35
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:16:9-64
+application
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:19:5-156:19
+MERGED from [com.android.support:design:23.1.1] C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\bin\intermediates\exploded-aar\com.android.support\design\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\bin\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\bin\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:21:9-41
+	android:icon
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:20:9-45
+	android:persistent
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:22:9-34
+	android:theme
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:23:9-40
+activity#com.example.ApiTest.MyActivity
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:24:9-32:20
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:26:13-45
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:25:13-39
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:27:13-31:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:28:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:30:17-77
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:30:27-74
+activity#com.example.ApiTest.ServiceTest1
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:33:9-35:36
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:35:13-33
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:34:13-41
+activity#com.example.ApiTest.ContentProviderTest
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:36:9-38:49
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:38:13-46
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:37:13-48
+activity#com.example.ApiTest.BroadcastReceiverTest
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:39:9-41:36
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:41:13-33
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:40:13-50
+activity#com.example.ApiTest.NotificationTest
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:42:9-44:36
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:44:13-33
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:43:13-45
+activity#com.example.ApiTest.ServiceTest2
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:45:9-47:39
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:47:13-36
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:46:13-41
+activity#com.example.ApiTest.ContentProviderTest2
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:48:9-50:52
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:50:13-49
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:49:13-49
+service#com.example.ApiTest.Service1
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:52:9-45
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:52:18-42
+service#com.example.ApiTest.Service2
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:53:9-45
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:53:18-42
+service#com.example.ApiTest.Service3
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:54:9-56:43
+	android:process
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:56:13-40
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:55:13-37
+service#com.example.ApiTest.Service4
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:57:9-59:43
+	android:process
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:59:13-40
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:58:13-37
+provider#com.example.ApiTest.MyContentProvider1
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:61:9-63:76
+	android:authorities
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:63:13-73
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:62:13-47
+provider#com.example.ApiTest.MyContentProvider2
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:64:9-67:43
+	android:authorities
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:66:13-73
+	android:process
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:67:13-40
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:65:13-47
+receiver#com.example.ApiTest.StaticBroadcastReceiver
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:69:9-73:20
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:69:19-58
+intent-filter#com.example.ApiTest.StaticBroadcastReceiver
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:70:13-72:29
+action#com.example.ApiTest.StaticBroadcastReceiver
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:71:17-86
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:71:25-83
+activity#com.example.ApiTest.StandardActivity
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:75:9-77:63
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:77:13-60
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:76:13-45
+activity#com.example.ApiTest.SingleTopActivity
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:78:9-81:46
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:80:13-62
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:81:13-43
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:79:13-46
+activity#com.example.ApiTest.SingleTopActivity$SingleTopActivity1
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:82:9-85:46
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:84:13-63
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:85:13-43
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:83:13-65
+activity#com.example.ApiTest.SingleTopActivity$SingleTopActivity2
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:86:9-89:46
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:88:13-63
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:89:13-43
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:87:13-65
+activity#com.example.ApiTest.SingleTopActivity$SingleTopActivity3
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:90:9-93:46
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:92:13-63
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:93:13-43
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:91:13-65
+activity#com.example.ApiTest.SingleTopActivity$SingleTopActivity4
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:94:9-97:46
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:96:13-63
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:97:13-43
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:95:13-65
+activity#com.example.ApiTest.SingleTopActivity$SingleTopActivity5
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:98:9-101:46
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:100:13-63
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:101:13-43
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:99:13-65
+activity#com.example.ApiTest.SingleTaskActivity
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:102:9-105:47
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:104:13-63
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:105:13-44
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:103:13-47
+activity#com.example.ApiTest.SingleTaskActivity$SingleTaskActivity1
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:106:9-109:47
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:108:13-64
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:109:13-44
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:107:13-67
+activity#com.example.ApiTest.SingleTaskActivity$SingleTaskActivity2
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:110:9-113:47
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:112:13-64
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:113:13-44
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:111:13-67
+activity#com.example.ApiTest.SingleTaskActivity$SingleTaskActivity3
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:114:9-117:47
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:116:13-64
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:117:13-44
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:115:13-67
+activity#com.example.ApiTest.SingleTaskActivity$SingleTaskActivity4
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:118:9-121:47
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:120:13-64
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:121:13-44
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:119:13-67
+activity#com.example.ApiTest.SingleTaskActivity$SingleTaskActivity5
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:122:9-125:47
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:124:13-64
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:125:13-44
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:123:13-67
+activity#com.example.ApiTest.SingleInstanceActivity
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:126:9-129:51
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:128:13-67
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:129:13-48
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:127:13-51
+activity#com.example.ApiTest.SingleInstanceActivity$SingleInstanceActivity1
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:130:9-133:51
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:132:13-68
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:133:13-48
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:131:13-75
+activity#com.example.ApiTest.SingleInstanceActivity$SingleInstanceActivity2
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:134:9-137:51
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:136:13-68
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:137:13-48
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:135:13-75
+activity#com.example.ApiTest.SingleInstanceActivity$SingleInstanceActivity3
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:138:9-141:51
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:140:13-68
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:141:13-48
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:139:13-75
+activity#com.example.ApiTest.SingleInstanceActivity$SingleInstanceActivity4
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:142:9-145:51
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:144:13-68
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:145:13-48
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:143:13-75
+activity#com.example.ApiTest.SingleInstanceActivity$SingleInstanceActivity5
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:146:9-149:51
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:148:13-68
+	android:launchMode
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:149:13-48
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:147:13-75
+activity#com.example.ApiTest.ActivityTestActivity
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:150:9-152:77
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:152:13-65
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:151:13-49
+activity#com.example.ApiTest.WebViewTestActivity
+ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:153:9-155:77
+	android:label
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:155:13-65
+	android:name
+		ADDED from C:\Users\dubo\Desktop\demo\DroidPlugin-master\Test\ApiTest\AndroidManifest.xml:154:13-48

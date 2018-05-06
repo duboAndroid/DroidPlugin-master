@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ApiTest"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="23" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.ApiTest.MyActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.ApiTest.ServiceTest1"
+            android:label="服务测试" />
+        <activity
+            android:name="com.example.ApiTest.ContentProviderTest"
+            android:label="ContentProvider测试" />
+        <activity
+            android:name="com.example.ApiTest.BroadcastReceiverTest"
+            android:label="广播测试" />
+        <activity
+            android:name="com.example.ApiTest.NotificationTest"
+            android:label="通知测试" />
+        <activity
+            android:name="com.example.ApiTest.ServiceTest2"
+            android:label="多进程服务测试" />
+        <activity
+            android:name="com.example.ApiTest.ContentProviderTest2"
+            android:label="多进程ContentProvider测试" />
+
+        <service android:name="com.example.ApiTest.Service1" />
+        <service android:name="com.example.ApiTest.Service2" />
+        <service
+            android:name="com.example.ApiTest.Service3"
+            android:process=":Process2" />
+        <service
+            android:name="com.example.ApiTest.Service4"
+            android:process=":Process2" />
+
+        <provider
+            android:name="com.example.ApiTest.MyContentProvider1"
+            android:authorities="com.example.ApiTest.MyContentProvider1" />
+        <provider
+            android:name="com.example.ApiTest.MyContentProvider2"
+            android:authorities="com.example.ApiTest.MyContentProvider2"
+            android:process=":Process2" />
+
+        <receiver android:name="com.example.ApiTest.StaticBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="com.example.ApiTest.StaticBroadcastReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.example.ApiTest.StandardActivity"
+            android:label="@string/title_activity_standard" />
+        <activity
+            android:name="com.example.ApiTest.SingleTopActivity"
+            android:label="@string/title_activity_single_top"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.example.ApiTest.SingleTopActivity$SingleTopActivity1"
+            android:label="@string/title_activity_single_top1"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.example.ApiTest.SingleTopActivity$SingleTopActivity2"
+            android:label="@string/title_activity_single_top2"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.example.ApiTest.SingleTopActivity$SingleTopActivity3"
+            android:label="@string/title_activity_single_top3"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.example.ApiTest.SingleTopActivity$SingleTopActivity4"
+            android:label="@string/title_activity_single_top4"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.example.ApiTest.SingleTopActivity$SingleTopActivity5"
+            android:label="@string/title_activity_single_top5"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.example.ApiTest.SingleTaskActivity"
+            android:label="@string/title_activity_single_task"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.example.ApiTest.SingleTaskActivity$SingleTaskActivity1"
+            android:label="@string/title_activity_single_task1"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.example.ApiTest.SingleTaskActivity$SingleTaskActivity2"
+            android:label="@string/title_activity_single_task2"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.example.ApiTest.SingleTaskActivity$SingleTaskActivity3"
+            android:label="@string/title_activity_single_task3"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.example.ApiTest.SingleTaskActivity$SingleTaskActivity4"
+            android:label="@string/title_activity_single_task4"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.example.ApiTest.SingleTaskActivity$SingleTaskActivity5"
+            android:label="@string/title_activity_single_task5"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.example.ApiTest.SingleInstanceActivity"
+            android:label="@string/title_activity_single_instance"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.example.ApiTest.SingleInstanceActivity$SingleInstanceActivity1"
+            android:label="@string/title_activity_single_instance1"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.example.ApiTest.SingleInstanceActivity$SingleInstanceActivity2"
+            android:label="@string/title_activity_single_instance2"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.example.ApiTest.SingleInstanceActivity$SingleInstanceActivity3"
+            android:label="@string/title_activity_single_instance3"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.example.ApiTest.SingleInstanceActivity$SingleInstanceActivity4"
+            android:label="@string/title_activity_single_instance4"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.example.ApiTest.SingleInstanceActivity$SingleInstanceActivity5"
+            android:label="@string/title_activity_single_instance5"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.example.ApiTest.ActivityTestActivity"
+            android:label="@string/title_activity_activity_test" />
+        <activity
+            android:name="com.example.ApiTest.WebViewTestActivity"
+            android:label="@string/title_activity_web_view_test" />
+    </application>
+
+</manifest>

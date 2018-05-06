@@ -1,0 +1,4 @@
+#Sun May 06 09:36:15 CST 2018
+base.0=C\:\\Users\\dubo\\Desktop\\demo\\DroidPlugin-master\\TestPlugin\\bin\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\dubo\\Desktop\\demo\\DroidPlugin-master\\TestPlugin\\bin\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

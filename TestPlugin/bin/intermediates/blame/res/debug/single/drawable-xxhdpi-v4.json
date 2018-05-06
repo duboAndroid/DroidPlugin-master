@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\dubo\\Desktop\\demo\\DroidPlugin-master\\TestPlugin\\bin\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\plugin_activity_loading.xml",
+        "source": "C:\\Users\\dubo\\Desktop\\demo\\DroidPlugin-master\\TestPlugin\\bin\\intermediates\\exploded-aar\\DroidPlugin-master.Libraries\\DroidPlugin\\unspecified\\res\\drawable-xxhdpi-v4\\plugin_activity_loading.xml"
+    },
+    {
+        "merged": "C:\\Users\\dubo\\Desktop\\demo\\DroidPlugin-master\\TestPlugin\\bin\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\plugin_activity_loading_bitmap.9.png",
+        "source": "C:\\Users\\dubo\\Desktop\\demo\\DroidPlugin-master\\TestPlugin\\bin\\intermediates\\exploded-aar\\DroidPlugin-master.Libraries\\DroidPlugin\\unspecified\\res\\drawable-xxhdpi-v4\\plugin_activity_loading_bitmap.9.png"
+    }
+]
